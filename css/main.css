@@ -2,7 +2,7 @@ html {
     background-color: rgb(136, 184, 168);
 }
 
-title {
+.title {
     color: white;
     size: 10vh;
     margin: 0 auto;
