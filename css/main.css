@@ -133,15 +133,18 @@ header ul li a
     min-width: 50%;
 }
 
-.img
-{
-    /* max-width: 100%; */
-    width: 50px;
-    height: auto;
-}
-
 .myself {
     width: 50px;
     height: auto;
     overflow: hidden;
+}
+
+.projects
+{
+    background: black;
+}
+
+.heading white
+{
+    background: azure;
 }
