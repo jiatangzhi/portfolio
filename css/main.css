@@ -69,7 +69,14 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* transition: ; */
 }
+
+header .sticky
+{
+    background: azure;
+    padding: 20px 100px;
+
 
 header .logo
 {
@@ -126,7 +133,15 @@ header ul li a
     min-width: 50%;
 }
 
-img
+.img
 {
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 50px;
+    height: auto;
+}
+
+.myself {
+    width: 50px;
+    height: auto;
+    overflow: hidden;
 }
