@@ -10,7 +10,8 @@ section{
     padding: 100px;
 }
 
-.banner {
+.banner
+{
     position: relative;
     min-height: 100vh;
     background:local;
@@ -18,8 +19,64 @@ section{
     background-position: right;
     display: flex;
     justify-content: space-between;
-    color: white;
-    size: 10vh;
-    margin: 0 auto;
+    align-items: center;
 }
 
+.banner h2 
+{
+    font-size: 3em;
+    color: azure;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span
+{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3
+{
+    font-size: 1.5em;
+    color: azure;
+    font-weight: 500;
+}
+
+.btn
+{
+    position: relative;
+    background: rgb(21, 20, 22);
+    display: inline-block;
+    color: azure;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;   
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo
+{
+    color: azure;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
