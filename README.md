@@ -1,4 +1,3 @@
 # Portfolio
 
-Visit jxtangzhi.com
-
+Visit my portfolio: https://jxtangzhi.com/
