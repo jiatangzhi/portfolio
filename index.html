@@ -133,85 +133,163 @@
       </div>
     </div>
 
-    <!-- ABOUT ME -->
-    <section class="about-me flex-center-col" id="about">
-      <div class="heading">
-        <h2>About me</h2>
-      </div>
-      <div class="about-text striped-border">
-        <img src="./images/me.png" class="myself" />
-        <p>
-          <br />
-          I'm an aspiring programmer recently graduated from Computer Science at
-          the University of Exeter. I love creating user-friendly websites and
-          apps. My current research interests are in data science as well as
-          artificial intelligence in particular machine learning and its
-          applications.
-          <br /><br /><br />
-          Currently I am learning more about SQL and machine learning to solve
-          problems. I would love to get into front-end software development or
-          data architecture. Please do not hesitate to contact me or explore my
-          GitHub profile for more information.
-        </p>
-      </div>
-    </section>
+    <p class="text-center m-5 featured-title">Featured Projects</p>
 
-    <!-- PORTFOLIO -->
-    <section class="portfolio" id="portfolio">
-      <div class="heading">
-        <h2>Portfolio</h2>
-      </div>
-
-      <div class="portfolioBox">
-        <br />
-        <h2>ChatBot</h2>
-        <p class="textPortfolio">
-          ChatBot implemented in Python, C, C++, JavaScript and CSS with
-          functions that process key user information.
-        </p>
-        <br />
-        <h2>Maze Game</h2>
-        <p class="textPortfolio">C++</p>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="contactContainer" id="contact">
-      <div class="heading">
-        <!-- <br><br> -->
-        <h2>Contact me</h2>
-      </div>
-
-      <div class="contactInfo">
-        <div class="contactMe-text">
-          To get in touch, email:
-          <a href="mailto:jiaxintangzhi@gmail.com" class="contact-link"
-            >jiaxintangzhi@gmail.com</a
-          >
-          or message me on LinkedIn
+    <div class="container-fluid container">
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img
+            src="/images/weather.png"
+            alt="World Clock project preview "
+            class="img-fluid rounded"
+          />
         </div>
-        <div class="contact-icons">
+        <div class="col">
+          <h2 class="mb-5">Weather App</h2>
+          <p class="mb-5 text-muted">
+            Stay up-to-date on the latest weather conditions with this sleek and
+            easy-to-use app. Simply enter your location, and the app will
+            display the current temperature, humidity, wind speed, and more. You
+            can also view a 6-day forecast to plan your week ahead. With a clean
+            and modern design, this weather app is a must-have for anyone who
+            wants to stay prepared for any weather.
+          </p>
+          <div class="mb-5">
+            <a
+              href=""
+              class="primary-link project-link"
+              title="Weather App preview"
+              >Launch Weather App</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col">
+          <h2 class="mb-5">World Clock App</h2>
+          <p>
+            Web application designed to display the time in various cities
+            around the world. The app features a clean and simple user
+            interface, with a list of pre-defined locations and current location
+            that users can select from to see the corresponding time zone and
+            current time.
+          </p>
+          <div class="mt-5">
+            <a
+              href="https://world-clock-jiatz.netlify.app/"
+              class="primary-link project-link"
+              title="World Clock preview"
+              >Launch World Clock App</a
+            >
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/world-clock.png"
+            class="img-fluid rounded"
+            alt="Weather project preview"
+          />
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/stock-screener.png"
+            class="img-fluid rounded"
+            alt="Yogurt project preview"
+          />
+        </div>
+        <div class="col">
+          <h2 class="mb-5 mt-5">Stock Screener</h2>
+          <p>
+            Python application that uses machine learning and unsupervised
+            methods such as k-means or t-SNE to analyze and evaluate stocks in
+            the S&P500. The app's algorithms perform data clustering and
+            dimensionality reduction to identify patterns and insights within
+            the stock market. This allows investors to optimize their portfolio
+            and make smarter investments based on the app's analysis and
+            recommendations.
+          </p>
+          <div class="mt-5 mb-5">
+            <a
+              href="https://github.com/jiatangzhi/stock_screener"
+              class="primary-link project-link"
+              title="Stock Screener project"
+              >Launch Stock Screener App</a
+            >
+          </div>
+        </div>
+        <div>
+          <p class="text-center lh-1 view-more mt-4">
+            <a href="/work.html"
+              >View more <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+
+      <footer>
+        <div
+          class="
+            contact-box
+            d-flex
+            justify-content-between
+            mb-5
+            d-none d-md-flex
+          "
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Jia"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:jiaxintangzhi@gmail.com"
+            class="email-link"
+            title="Email Jia"
+          >
+            jiaxintangzhi@gmail.com
+          </a>
+        </div>
+
+        <div class="social-links d-flex justify-content-center">
           <a
             href="https://www.linkedin.com/in/jiatangzhi/"
             target="_blank"
-            class="fa fa-linkedin-square fa-icons"
-            aria-hidden="true"
-          ></a>
+            title="LinkedIn profile"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
           <a
-            href="https://github.com/jiatangzhi/"
+            href="https://github.com/jiatangzhi"
             target="_blank"
-            class="fa fa-github-square fa-icons"
-            aria-hidden="true"
-          ></a>
-          <a
-            href="mailto:jiatangzhi@gmail.com"
-            target="_blank"
-            class="fa fa-envelope fa-icons"
-            aria-hidden="true"
-          ></a>
+            title="GitHub profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
         </div>
-      </div>
-    </section>
+        <div class="text-center mt-5">
+          This website was coded by Jia Xin Tang Zhi, and is
+          <a
+            href="https://github.com/jiatangzhi/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </div>
+      </footer>
+    </div>
+
 
     <div class="copyright">
       <p>Jia Xin Tang Zhi © 2021</p>
