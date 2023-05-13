@@ -180,8 +180,9 @@ h3 {
   font-size: 24px;
 }
 .typed-text-cursor {
-  color: var(--white);
-  animation: typing 2s step-end infinite;
+  line-height: 1.5;
+  font-size: 24px;
+  animation: typing 1s step-end infinite;
 }
 
 @keyframes typing {
