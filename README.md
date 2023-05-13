@@ -1,3 +1,3 @@
 # Portfolio
 
-Visit my portfolio: [Jia Xin ☺️](https://www.jxtangzhi.com/)
+Visit my portfolio: [JXTZ ☺️](https://www.jxtangzhi.com/)
