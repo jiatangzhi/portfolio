@@ -154,6 +154,12 @@ h3 {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  color: var(--branding-color);
+  border: 3px solid var(--branding-color);
+  background-color: #fff;
+  border-color: var(--branding-color);
+}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -238,7 +244,7 @@ footer .fa-brands:hover {
   padding: 10px;
 }
 
-/* ----- making intro part responsive ----- */
+/* ----- Responsive ----- */
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
