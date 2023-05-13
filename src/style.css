@@ -12,7 +12,7 @@
   );
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Monoton&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Monoton&display=swap"); */
 
 body {
   font-family: var(--default-font-family);
@@ -58,35 +58,124 @@ HOME CSS
 /* margin:0; */
 /* } */
 
-.home {
-  height: 10%;
-}
 
-.intro {
+
+/* .intro {
   text-align: center;
   font-family: "Chalkduster";
   font-size: 3em;
   max-width: 100%;
-  /* padding: 20% 30px; */
   font-weight: 900;
   letter-spacing: 5px;
-  /* color: var(--white); */
   text-shadow: -4px 0 var(--white), 0 4px var(--white), 4px 0 var(--white),
     0 -4px var(--white);
+} */
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
-.title {
-  font-size: var(--title-font-size);
-  font-family: "Copperplate";
-  font-weight: 100;
-  position: relative;
-  transition: 0s ease;
-  text-transform: uppercase;
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
 }
 
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 48px;
+}
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 200px 20px 130px;
+  margin: 0;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  max-height: 70%;
+}
+.content-container {
+  padding: 120px 20px;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  margin-top: 20px 0 0;
+  line-height: 1.5;
+}
+.content p {
+  font-size: 18px;
+}
+.content {
+  margin: 30px;
+}
+.featured-title {
+  font-size: 35px;
+}
+.view-more a{
+  text-decoration: none;
+  padding: 10px;
+  color: var(--branding-color);
+  border: 5px solid var(--branding-color);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+}
+.view-more a:hover {
+  font-weight: 700;
+}
+.btn-branding {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.logo {
+  max-width: 100px;
+}
+.hero h2,
+.typed-text {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
 .typed-text-cursor {
   color: var(--white);
-  animation: typing 1s step-end infinite;
+  animation: typing 2s step-end infinite;
 }
 
 @keyframes typing {
@@ -104,220 +193,43 @@ HOME CSS
 }
 
 /*######################################################
-ABOUT ME CSS 
+FOOTER
 ######################################################*/
-.about {
-  height: 100vh;
-  width: 100vw;
-  background-color: var(--aboutBackground);
-  overflow: hidden;
-  position: relative;
-  align-items: center;
+footer {
+  margin: 60px 0;
 }
-
-.about-me {
-  align-items: center;
-  padding: 0 auto;
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  max-height: 100vh;
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
-
-.about-text {
-  width: 50%;
-  height: 75vh;
-
-  background-image: url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
-  background-repeat: repeat;
-  padding: 5vh 5vw 5vh;
-  margin: 20px;
-  padding: auto;
-  border-radius: 25px;
+footer .contact-box p {
+  margin: 0;
 }
-
-/* .title-text {
-    transition: 0s ease;
-    font-size: var(--big-font-size);
-    font-family: 'Hammersmith One', sans-serif;
-    font-weight: 500;
-    color: var(--titleOther);
-    text-align: center;
-    position: relative;
-    top: 25%;
-} */
-
-.typed-text-cursor {
-  color: var(--white);
-  animation: typing 2s step-end infinite;
-}
-
-/* -------- striped-border -------------*/
-.striped-border {
+footer .email-link {
   display: flex;
-  align-items: center;
   justify-content: center;
-  position: relative;
-  width: 80%;
-  height: auto;
-  background-color: #fff;
-  border-radius: 25px;
-}
-
-.striped-border::before {
-  content: "";
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  bottom: -10px;
-  left: -10px;
-  z-index: -1;
-  background: repeating-linear-gradient(
-    -45deg,
-    #f00 0,
-    #f00 10px,
-    #fff 10px,
-    #fff 20px,
-    #00f 20px,
-    #00f 30px,
-    #fff 30px,
-    #fff 40px
-  );
-  animation: anime 10s linear infinite;
-}
-
-@keyframes anime {
-  0% {
-    background-position: 0;
-  }
-  100% {
-    background-position: 489px;
-  }
-}
-
-/* @media screen and (max-width: 50%) {
-    .striped-border {
-      width: auto;
-      height: auto;
-    }
-    .striped-border {
-      font-size: 2rem;
-    }
-}
-   */
-
-/*######################################################
-PORTFOLIO CSS
-######################################################*/
-
-.contentBx h3 {
+  color: black;
   font-size: 24px;
-  margin-bottom: 10px;
+  text-decoration: none;
 }
-
-.w50 {
-  min-width: 50%;
+footer .email-link:hover {
+  text-decoration: none;
+  color: var(--branding-color);
 }
-
-.portfolio {
-  background-color: black;
-  padding: 5vh;
-  margin-top: 5em;
+footer .fa-brands {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
 }
-
-.portfolioBox {
-  /* display: flex; */
-  padding: auto;
-  margin: auto;
-  justify-content: center;
-  color: aliceblue;
-  background-color: rgba(146, 140, 140, 0.842);
-  /* flex-wrap: wrap; */
-  /* flex-direction: row; */
+footer .fa-brands:hover {
+  color: #fff;
+  background-color: var(--branding-color);
 }
-
-.textPortfolio {
-  padding: 3vh;
-}
-
-.containerPortfolio .content .portfolioBox h2 {
-  background: border-box;
-  font-size: 20px;
-  font-weight: 600;
-  padding: auto;
-}
-
-/*######################################################
-CONTACT CSS
-######################################################*/
-
-/* .contact
-{
-    height: 100vh;
-    width: 100%;
-    background-color: var(--aboutBackground);
-    background-color: rgb(0, 0, 0);
-    
-} */
-.contactContainer {
-  height: 100vh;
-  width: 100%;
-  padding: 5vh;
-  background: black;
-  position: relative;
-  overflow: hidden;
-}
-
-.contactInfo {
-  /* font-size: 90px; */
-}
-
-.contactMe-text {
-  margin: auto;
-  /* padding: auto; */
-  height: 50vh;
-  width: 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
-  color: var(--grey);
-  font-weight: bold;
-}
-
-.contact-link {
-  color: var(--white);
-  cursor: pointer;
-}
-
-.contact-icons {
-  /* max-width: 60px; */
-  /* padding-top: 4px; */
-  /* color: var(--white);    */
-  margin: auto;
-  margin-top: 10%;
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /* justify-content: space-evenly; */
-}
-
-.fa-icons {
-  padding: auto;
-  cursor: pointer;
-  position: relative;
-  margin: auto;
-}
-
-/* contact-fa
-{
-    
-} */
-
 .copyright {
   background: rgb(34, 32, 32);
   color: #fff;
@@ -327,38 +239,80 @@ CONTACT CSS
 }
 
 /* ----- making intro part responsive ----- */
-@media (max-width: 991px) {
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-size: 44px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  p {
+    text-align: center;
+  }
+  .nav a {
+    font-size: 12px;
+  }
+  .hero {
+    padding: 150px 20px 80px;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .img .me {
+    height: 25%;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+}
+
   /* header, 
     header .sticky
     {
         /* padding: 20px 50px; */
   /* z-index: 1000; 
     } */
-  .menu {
+  /* .menu {
     /* position: fixed; */
     /* top: 75px; */
-    /* left: 0; */
+    /* left: 0;
     display: block;
-    /* padding: 50px 25px; */
-    /* text-align: center; */
+    /* padding: 50px 25px; 
+     text-align: center; 
     width: 100%;
     height: 100vh;
-    /* background: #fff; */
+    /* background: #fff; 
     transition: 0.5s;
     z-index: 999;
     border-top: 5px solid rgba(0, 0, 0, 0.2);
-  }
+  } 
 
-  .toggle {
+ .toggle { */
     /* width: 40px;
         height: 40px; */
     /* background: none; */
     /* background-position: center;
         position: fixed; */
     /* background-size: 30px; */
-    cursor: pointer;
+    /* cursor: pointer; 
   }
-  /* .toggle.active
+   .toggle.active
     {
         /* background: none; */
   /* background-position: center; */
@@ -371,7 +325,7 @@ CONTACT CSS
         filter: invert(1);
     } */
 
-  section {
+  /* section {
     padding: 50px 20px;
   }
 
@@ -386,4 +340,4 @@ CONTACT CSS
   .w50 {
     margin-bottom: 20px;
   }
-}
+} */
