@@ -159,6 +159,7 @@ h3 {
   border: 3px solid var(--branding-color);
   background-color: #fff;
   border-color: var(--branding-color);
+  cursor: pointer;
 }
 .primary-link {
   border-radius: 4px;
