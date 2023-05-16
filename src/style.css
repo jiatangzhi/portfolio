@@ -154,6 +154,13 @@ h3 {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  color: var(--branding-color);
+  border: 3px solid var(--branding-color);
+  background-color: #fff;
+  border-color: var(--branding-color);
+  cursor: pointer;
+}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -174,8 +181,9 @@ h3 {
   font-size: 24px;
 }
 .typed-text-cursor {
-  color: var(--white);
-  animation: typing 2s step-end infinite;
+  line-height: 1.5;
+  font-size: 24px;
+  animation: typing 1s step-end infinite;
 }
 
 @keyframes typing {
@@ -238,7 +246,7 @@ footer .fa-brands:hover {
   padding: 10px;
 }
 
-/* ----- making intro part responsive ----- */
+/* ----- Responsive ----- */
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
