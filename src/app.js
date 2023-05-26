@@ -58,7 +58,16 @@ ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
 
 ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 const typed = new Typed(".mutiple-text", {
-  strings: ["", "Frontend Developer", "Designer"],
+  strings: [
+    "",
+    "is looking for a job",
+    "enjoys problem solving",
+    "wants to get into Data Science",
+    "loves fitness!",
+    "is interested in Artificial Intelligence",
+    "loves travelling",
+    "likes web design",
+  ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 100,

@@ -78,7 +78,7 @@ body {
   align-items: center;
 }
 .home-content h3 {
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 .home-content h3:nth-of-type(2) {
@@ -110,8 +110,8 @@ span {
   }
 }
 .home-content p {
-  font-size: 1.5rem;
-  margin-bottom: 1.3rem;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .social-media a {
