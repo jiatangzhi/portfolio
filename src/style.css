@@ -287,7 +287,6 @@ span {
 /*-------------certificate section starts--------*/
 .certificate {
   background: var(--second-bg-color);
-  color: var(--text-color);
 }
 .certificate-grid {
   display: grid;
@@ -295,14 +294,15 @@ span {
   grid-gap: 1rem;
   transition: all 100s ease-in-out;
 }
-.certificate-image img {
+.certificate-image img{
   width: 100%;
   height: auto;
 }
-.certificate-image:hover {
+.certificate-image img:hover {
   width: 30rem;
 }
 .certificate p {
+  color: var(--text-color);
   margin-top: 1rem;
   text-align: center;
   font-size: 1rem;
@@ -470,6 +470,8 @@ span {
   .certificate-grid {
     grid-template-columns: 1fr;
   }
+  .certificate-image img:hover {
+    width: 100%;
 }
 @media (max-width: 617px) {
   .project-container {
