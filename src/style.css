@@ -32,7 +32,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem;
+  padding: 1.2rem;
   display: flex;
   background: var(--bg-color);
   justify-content: space-between;
@@ -50,10 +50,10 @@ body {
   text-decoration: none;
 }
 .nav-bar a {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   color: var(--text-color);
   text-decoration: none;
-  margin-left: 4rem;
+  margin-left: 2rem;
   transition: 0.2s;
 }
 .nav-bar a:hover {
@@ -472,6 +472,7 @@ span {
   }
   .certificate-image img:hover {
     width: 100%;
+  }
 }
 @media (max-width: 617px) {
   .project-container {
