@@ -196,7 +196,7 @@ span {
   transition: opacity 0.1s ease-in;
 }
 .skills img:hover {
-  transform: scale(2);
+  transform: scale(1.25);
 }
 .skills img {
   width: 100%;
