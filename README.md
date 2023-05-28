@@ -1,3 +1,3 @@
 # Portfolio
 
-Visit my portfolio: [JXTZ ☺️](https://www.jxtangzhi.com/)
+Visit my [Portfolio ☺️](https://www.jxtangzhi.com/)
