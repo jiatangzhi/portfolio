@@ -295,12 +295,12 @@ span {
   grid-gap: 1rem;
   transition: all 100s ease-in-out;
 }
-.certificate-image:hover {
-  width: 30rem;
-}
 .certificate-image img {
   width: 100%;
   height: auto;
+}
+.certificate-image:hover {
+  width: 30rem;
 }
 .certificate p {
   margin-top: 1rem;
