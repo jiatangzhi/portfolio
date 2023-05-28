@@ -196,7 +196,7 @@ span {
   transition: opacity 0.1s ease-in;
 }
 .skills img:hover {
-  transform: scale(2);
+  transform: scale(1.25);
 }
 .skills img {
   width: 100%;
@@ -282,10 +282,37 @@ span {
   color: var(--second-bg-color);
   padding: 1rem;
 }
-/*-------------project section ends-------*/
+/*-------------project section ends--------------*/
 
-/*-------------contact section starts-------*/
+/*-------------certificate section starts--------*/
+.certificate {
+  background: var(--second-bg-color);
+  color: var(--text-color);
+}
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  transition: all 100s ease-in-out;
+}
+.certificate-image:hover {
+  width: 30rem;
+}
+.certificate-image img {
+  width: 100%;
+  height: auto;
+}
+.certificate p {
+  margin-top: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-bottom: 6rem;
+  font-weight: 100;
+}
+/*-------------certificate section ends-------*/
 
+/*-------------contact section starts---------*/
 .contact h2 {
   margin-bottom: 3rem;
 }
@@ -320,12 +347,10 @@ span {
   margin-top: 2rem;
   cursor: pointer;
 }
-/*-------------contact section ends-------*/
-
+/*-------------contact section ends--------*/
 
 /*-------------footer section starts-------*/
-
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -333,28 +358,29 @@ span {
   padding: 2rem 9%;
   background: #000000;
 }
-.copyright p{
+.copyright p {
   font-size: 1rem;
 }
-.footer-iconTop a{
+.footer-iconTop a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: .8rem;
+  padding: 0.8rem;
   background: var(--main-color);
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   text-decoration: none;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-.footer-iconTop a{
-box-shadow: 0 0 1rem var(--main-color);
+.footer-iconTop a {
+  box-shadow: 0 0 1rem var(--main-color);
 }
-.footer-iconTop a i{
- font-size: 2.4rem;
- color: var(--second-bg-color);
+.footer-iconTop a i {
+  font-size: 2.4rem;
+  color: var(--second-bg-color);
 }
+/*-------------footer section ends -------------*/
 
-/*-------------footer section ends -------*/
+/*-------------responsive section starts--------*/
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -393,7 +419,7 @@ box-shadow: 0 0 1rem var(--main-color);
   }
   .nav-bar a {
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 3rem 0;
   }
   .home {
@@ -442,6 +468,9 @@ box-shadow: 0 0 1rem var(--main-color);
   .home-content h1 {
     font-size: 4rem;
   }
+  .certificate-grid {
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 617px) {
   .project-container {
@@ -450,7 +479,7 @@ box-shadow: 0 0 1rem var(--main-color);
 }
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 60%;
   }
 
   .contact form .input-box input {
