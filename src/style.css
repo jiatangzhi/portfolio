@@ -303,7 +303,7 @@ span {
 }
 .certificate p {
   color: var(--text-color);
-  margin-top: 1rem;
+  margin-top: 2rem;
   text-align: center;
   font-size: 1rem;
   margin-bottom: 6rem;
